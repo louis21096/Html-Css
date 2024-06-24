@@ -24,7 +24,7 @@ body {
     width: 1000px;
     float: left;
     text-align: center;
-    
+    padding-left: 100px;
     padding-top: 25px;
 
 }
@@ -74,14 +74,26 @@ nav li a:hover {
     
 }
 
+#intro_two {
+    background: black url(/resources/shotover.JPG) no-repeat center;
+    background-size: cover;
+    padding-bottom: 300px;
+    padding-top: 300px;
+    z-index: 1;
+    
+}
+
 #intro_block {
+
     text-align: center;
+    vertical-align: middle;
     background-color: rgba(0, 0, 0, 0.175);
-    padding-top: 10px;
+    
     width: 850px;
     margin-left: 430px;
     color: white;
     border: 1px solid white;
+
 }
 
 #intro_block li {
@@ -150,4 +162,35 @@ footer {
 #socials {
     float: left;
     width: 400px;
+    text-decoration: none;
+    
+
+}
+
+#socials ul {
+    list-style: none;
+}
+
+
+
+
+.triangle {
+    
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 60px 0 0 1700px;
+    border-color: transparent transparent transparent rgb(199,179, 127);
+    margin-top: -60px;
+    position: relative;
+    z-index: 2;
+    clear: both;
+}
+
+
+#about_qtown_history p {
+    background-color:rgb(199,179, 127) ;
+    width: 600px;
+    padding-left: 550px;
+    margin-top: 0px;
 }
