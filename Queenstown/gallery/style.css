@@ -1,0 +1,12 @@
+#page_container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.thumb {
+    width: 275px;
+    float: left;
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+

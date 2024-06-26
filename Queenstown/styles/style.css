@@ -194,3 +194,8 @@ footer {
     padding-left: 550px;
     margin-top: 0px;
 }
+
+#gallery {
+
+    float: left;
+}
